@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enes Celik</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/contact-form.css">
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+  <!-- FAVICON ON THE TITLE BAR -->
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Courgette&family=Red+Hat+Mono:wght@300&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <div class="main-head">
+      <h1>I'm Enes.</h1>
+      <h2>a Web Developer</h2>
+    </div>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img class="mountain-img" src="images/mountain.png" alt="mountain-img">
+  </div>
+  <!-- MIDDLE CONTAINER BEGINS -->
+  <div class="middle-container">
+    <div class="profile">
+      <img class="me" src="images/IMG_0304-modified.png" alt="myPicture">
+      <h3 class="hello">Hello.</h3>
+      <p class="intro-Para">The purpose of this website is to potential employers my front-end development skills.
+        <br> I will use my knowledge of front-end tehcnologies to give websites modern and sleek look.
+      </p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h3 class="my-skills">My Skills.</h3>
+      <div class="skill-row-one">
+        <img class="frontEnd" src="images/color-wheel-modified.png" alt="frontEnd">
+        <h4>Front-End Development</h4>
+        <p>I love designing websites and making it modern & sleek to the eye. I have over two years of experience</p>
+      </div>
+      <div class="skill-row-two">
+        <img class="backEnd" src="images/technical-support-modified.png" alt="backEnd">
+        <h4>Back-End Development</h4>
+        <p>There is nothing more satisfying then having the whole website come together,with my knowledge of back-end I
+          will make sure your website is fun and quirky.</p>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="contact-me">
+    <h3 class="get-in-touch">Get In Touch</h3><br>
+    <h4>Contact me now to get a quote!</h4><br>
+    <p>I am very flexible with my pricing and offer many discount oppurtunities for new comers.</p>
+    <!-- button to open model -->
+    <a data-modal-target="#modal" class="btn-form">CONTACT ME</a>
+  </div>
+  <!-- MODAL CONTAINER -->
+  <div class="modal active" id="modal">
+    <div class="modal-header">
+      <h2 class="title">Contact Me</h2>
+      <a data-close-button class="modal-close">&times;</a>
+  </div>
+    <div class="modal-body">
+      <form action="thanks.html">
+        <label for="name">Name</label>
+        <input type="text" name="name">
+        <label for="email">Email</label>
+        <input type="email" name="email">
+        <label for="subject">Subject</label>
+        <textarea></textarea>
+        <input type="submit" class="btn-send">
+      </form>
+    </div>
+  </div>
+  <!-- div to control background appearance  -->
+  <div id="overlay"></div>
+  <!-- BOTTOM CONTAINER BEGINS -->
+  <div class="bottom-container">
+    <a class="footer-link" href="https://ca.linkedin.com/in/menescelik">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">GitHub</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Back-End Website</a>
+    <p class="copyright">© 2022 M. Enes Celik.</p>
+  </div>
+
+  <!-- index.js -->
+  <script src="js/index.js"></script>
+</body>
+
+</html>
